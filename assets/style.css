@@ -73,14 +73,15 @@ header.site {
 .brand .dot { color: var(--signal); }
 .navlinks {
   display: flex;
-  gap: 28px;
+  gap: 20px;
   list-style: none;
   margin: 0;
   padding: 0;
   font-family: var(--mono);
-  font-size: 13px;
+  font-size: 12.5px;
   letter-spacing: 0.02em;
   text-transform: uppercase;
+  flex-wrap: wrap;
 }
 .navlinks a { text-decoration: none; color: var(--ink-soft); border-bottom: 2px solid transparent; padding-bottom: 4px; transition: all .15s ease; }
 .navlinks a:hover, .navlinks a.active { color: var(--ink); border-bottom-color: var(--signal); }
